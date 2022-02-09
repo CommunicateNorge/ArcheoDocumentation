@@ -1,71 +1,74 @@
 
-# Search
+# Search Result
 
-- [Search](#search)
-  - [About search](#about-search)
-  - [Search filters](#search-filters)
-  - [Advanced search filters](#advanced-search-filters)
-  - [Saved search](#saved-search)
-  - [Create alert from search parameters](#create-alert-from-search-parameters)
-  - [Copy search link to clipboard](#copy-search-link-to-clipboard)
+- [About search results](#about-search-results)
+- [Search result details](#search-result-details)
+- [Open or download content](#open-or-download-content)
+- [Metadata](#metadata)
+- [Resend](#resend)
+- [Add logstep](#add-logstep)
+- [Delete logstep](#delete-logstep)
 
-## About search
+## About search results
 
-Use search to identify your messages and flows. Search provides a set of filters with powerful freetext search to quickly find what you are looking for. Mix and match filter for most precise hits.
+Based on your search the results of all transactions matching the search will be listed her. The list is ordered by the "First Processed" descending always showing the latest logged transactions. The coloring of the row is controlled by the status. The Status is set based on the latest steps status, if not a status is set to immutable, see [status](../Configuration/Status.mk) for more details. See [API](../Archeo%20API/Archeo%20Logging%20API.md) for more details about the logged values.
 
-## Search filters
+![img](https://archeodocstorage.blob.core.windows.net/images/Search-Result-Main.png)
 
-Use filters to narrow down your search. The "Search" button performs the search, and lists all results in a grid. The "Clear all" button clears the current filters to the default settings.
+## Search result details
 
-![img](https://archeodocstorage.blob.core.windows.net/images/Search-Filter.png)
+Click on a row to expand the current transaction. All steps logged for this transaction are shown order by the "Processed" column.
 
-|Filter  |Description   |
-|------|---|
-|Search|Search in all content, descriptions and metadata. Use double quotes to search for a phrase. "This is a quote" will search for the exact match. No quotation marks will show matches for all individual words|
-|From |Date/time first logging received|
-|To |Date/time last logging received|
-|Transaction Id|The id of the log, will return one or none rows. Discards all other filters |
+![img](https://archeodocstorage.blob.core.windows.net/images/Search-Result-Details.png)
 
-## Advanced search filters
+## Open or download content
 
-Advanced filters gives the user options to drill even more down in the results based on filters. The dropdown-boxes will only contain the selections you have rights to searches for.
+To open file content press the filename link and the content will bee shown in the Archeo default viewer. To download the file click the icon to the left of the link.
 
-The filters are available by the "burger" menu item "Show Advanced Search" top left:
+![img](https://archeodocstorage.blob.core.windows.net/images/Search-Result-Download.png)
 
-![img](https://archeodocstorage.blob.core.windows.net/images/Search-BurgerMenu.png)
+## Metadata
 
-![img](https://archeodocstorage.blob.core.windows.net/images/Search-FilterAdvanced.png)
+By default the metadata is available tru the link "Show" under the Metadata colum. This will open a view showing all logged metadata. 
 
-|Filter  |Description   |
-|---------|---|
-|Transaction Tag |Explicit search for the logged transaction tag|
-|Transaction type |Dropdown with available transaction types. Filters transactions based on selection|
-|Message type |Dropdown with available message types. Filters transactions based on selection|
-|Sender  |Dropdown with available senders. Filters transactions based on selection|
-|Receiver  |Dropdown with available receivers. Filters transactions based on selection|
-|Status  |Dropdown with available statuses. Filters transactions based on selection|
+![img](https://archeodocstorage.blob.core.windows.net/images/Search-Result-Metadata.png)
 
-## Saved search
+It is possible to preview the metadata directly in the Metadata column. Notice that the max number of metatada in preview is 10 and if the metadata value is long it will be truncated.
 
-To save a search, create a search using the available filters and save the created search through the three dots next to the search button:
+![img](https://archeodocstorage.blob.core.windows.net/images/Search-Result-MetadataPreview.png)
 
-![img](https://archeodocstorage.blob.core.windows.net/images/Search-SaveSearch.png)
+Go to [API](../Archeo%20API/Archeo%20Logging%20API.md) for more details about  how to log metadata.
 
-Enter a name for the search and it will be available for quick searches in the future.
-To edit a saved search, select the saved search, adjust the search filters and select "Save search", the "edit search" form will have pre-filled the name of the current saved search. Click "Save" and the current saved search will be updated. Note that if you rename the saved search it will be saved as anew.
+## Resend
 
-## Create alert from search parameters
+![img](https://archeodocstorage.blob.core.windows.net/images/Search-Result-Resend.png)
 
-Available form the "burger" menu top right. Only available ig you are member of the "Administrator" or "Owner" usergroup.
+Every step is possible to resend. All the properties for this step, including a SASURI to the content is by default resent. The resend link opens a form where you select what webhook to use.
 
-![img](https://archeodocstorage.blob.core.windows.net/images/Search-BurgerMenu.png)
+![img](https://archeodocstorage.blob.core.windows.net/images/Search-Result-ResendForm.png)
 
-Archeo support Alerts, for more details see [alerts](Alerts.mk). Alerting are based on a search and you can create an alert based on the search you have created. This will take you to the alert creation page, where all the filters and parameters are pre-filled, to swiftly create an Alert.  
+Go to [status](../Distribution%20Channels/Webhooks.mk) for more detail for more details about how to setup a webhook.
 
-## Copy search link to clipboard
+It is also possible to resend a batch. By selecting all the messages You like to resend, and select "Resend selected" on the "burger" menu top right, you will be able to resend up to 100 messages in one batch.
 
-Available form the "burger" menu top right
+![img](https://archeodocstorage.blob.core.windows.net/images/Search-Result-ResendBatch.png)
 
-![img](https://archeodocstorage.blob.core.windows.net/images/Search-BurgerMenu.png)
+In the resend form you must choose, what steps to resend based on status and position.
 
-This selection copy current search to your clipboard, this may come in handy if you want to share a specific search with a colleague.
+![img](https://archeodocstorage.blob.core.windows.net/images/Search-Result-ResendBatchForm.png)
+
+## Add logstep
+It is possible to manually add a step to a transaction flow. This can be useful if want to change the status or add addition information to a flow. Eg if you have handled an error manually and you like to reflect this to the flow. Select the transactions you want to add step to and select "Add logstep for selected" from the "burger" menu top right:
+
+![img](https://archeodocstorage.blob.core.windows.net/images/Search-Result-AddStepMenu.png)
+
+In the form you can add a description and the Status for the added step:
+
+![img](https://archeodocstorage.blob.core.windows.net/images/Search-Result-AddStepForm.png)
+
+## Delete logstep
+
+To delete one or more transactions select them and click "Delete selected" from the "burger" menu top right:
+(Note: The deletion can not be undone)
+
+![img](https://archeodocstorage.blob.core.windows.net/images/Search-Result-DeleteMenu.png)
