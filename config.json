@@ -1,6 +1,7 @@
 {
-    "homepage": "Getting Started.md",
+    "homepage": "Introduction.md",
     "sorting": [
+	"Introduction",
         "Archeo API",
         "Archeo Portal"
     ]
