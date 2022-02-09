@@ -1,12 +1,16 @@
 
 # Archeo logging API
 
-- [Archeo logging API](#archeo-logging-api)
-  - [Generate API Key](#generate-api-key)
-  - [Logging to Archeo API](#logging-to-archeo-api)
-  - [How to log to Archeo with Postman](#how-to-log-to-archeo-with-postman)
-  - [How to log to Archeo using C](#how-to-log-to-archeo-using-c)
-  - [API Responses](#api-responses)
+- [About logging API](#about-logging-api)
+- [Generate API Key](#generate-api-key)
+- [Logging to Archeo API](#logging-to-archeo-api)
+- [How to log to Archeo with Postman](#how-to-log-to-archeo-with-postman)
+- [How to log to Archeo using C](#how-to-log-to-archeo-using-c)
+- [API Responses](#api-responses)
+
+## About logging API
+
+This is the public Archeo API. This is the primary interface for supplying logs to your Archeo subscription. Don't have a subscription? Create your free trial today at <http://www.archeo.no>.
 
 ## Generate API Key
 
