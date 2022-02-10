@@ -1,31 +1,49 @@
 
-# Getting started with Archeo
+# Message Types
 
-- [Getting started with Archeo](#getting-started-with-archeo)
-  - [New user and subscription](#new-user-and-subscription)
-  - [How-to upgrade our trial subscription](#how-to-upgrade-our-trial-subscription)
+- [Message Types](#message-types)
+  - [About Messagetypes](#about-messagetypes)
+  - [Create Messagetype](#create-messagetype)
+  - [Edit Messagetype](#edit-messagetype)
+  - [Delete Messagetype](#delete-messagetype)
+  - [Example](#example)
 
-## New user and subscription
-If you do not have a Archeo user, you need to create this as a first step. A trial subscription will be created alongside with this registration.
+## About Messagetypes
 
-Click “Register Now” 
+A message type is the type of the message logged in a transaction. One transaction may consist of many message types.
+The message types are created in the administration web interface and used when logging to the logging API.
+Click Administration menu → Message Types. CRUD operations is also available from the [configuration api](../../Archeo%20API/Archeo%20Configuration%20API.md)
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-Login.png)
+## Create Messagetype
 
-Fill out requested information and click “Create Account”.
+![img](https://archeodocstorage.blob.core.windows.net/images/Configuration-Messagetype-New.png)
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser01.png)
+To add a new message type enter a name and click "add". If using messagetype when logging the type must be pre-created in the subscription or a error will be thrown from the [logging API](../../Archeo%20API/Archeo%20Logging%20API.md)..
 
-Add some more information. Give your subscription a well thought out name. For time being this is not changeable without contacting support.
+## Edit Messagetype
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser02.png)
+![img](https://archeodocstorage.blob.core.windows.net/images/Configuration-Messagetype-Edit.png)
 
-When you click “Create account” a confirmation email is sent to your mailbox. Go to your mailbox and look a mail from noreply@archeo.no, if not found pleas check the "spam" folder. Click on the “Confirm email” button
+To edit a existing message type  click "edit". Since the logging API are using name, remember that a change of name may affect the logging.
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-ConfirmEmail.png)
+## Delete Messagetype
 
-You may now log inn to your new subscription in Archeo.
+![img](https://archeodocstorage.blob.core.windows.net/images/Configuration-Messagetype-Delete.png)
 
-## How-to upgrade our trial subscription
+To delete an existing message type  click "delete". Remember that a deleting may affect the logging ig the massage type is used when logging.
 
-Due to changes in the payment solution we will handle up and downgrading of a subscription manually. Please contact the team at support@archeo.no and we will gladly help you with this.
+## Example
+
+Example value for the messagetype used in the json data format supplied to the API.
+
+```json
+[
+  {
+    "transactionId": "4163EBF5-0489-4569-B3BF-9D779593EE7B",
+    "transactionType": "DeliveryMessage",
+    "messageType": "PapinetEnvelope",   
+    "processed": "2022-01-15T10:23:32.2407737+00:00",   
+    "status": "Success"
+  }
+]
+```

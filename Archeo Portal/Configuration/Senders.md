@@ -1,31 +1,49 @@
 
-# Getting started with Archeo
+# Receivers
 
-- [Getting started with Archeo](#getting-started-with-archeo)
-  - [New user and subscription](#new-user-and-subscription)
-  - [How-to upgrade our trial subscription](#how-to-upgrade-our-trial-subscription)
+- [Receivers](#receivers)
+  - [About Sender](#about-sender)
+  - [Create Sender](#create-sender)
+  - [Edit Sender](#edit-sender)
+  - [Delete Sender](#delete-sender)
+  - [Example](#example)
 
-## New user and subscription
-If you do not have a Archeo user, you need to create this as a first step. A trial subscription will be created alongside with this registration.
+## About Sender
 
-Click “Register Now” 
+Senders are automatically created if they do not exist in Archeo. You may add or edit Sender manually. Reveivers are typically used to name the endpoint for this log.
+Click Administration menu → Senders
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-Login.png)
+## Create Sender
 
-Fill out requested information and click “Create Account”.
+![img](https://archeodocstorage.blob.core.windows.net/images/Configuration-Sender-New.png)
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser01.png)
+To add a new Sender type enter a name and click "add".
 
-Add some more information. Give your subscription a well thought out name. For time being this is not changeable without contacting support.
+## Edit Sender
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser02.png)
+![img](https://archeodocstorage.blob.core.windows.net/images/Configuration-Receiver-Edit.png)
 
-When you click “Create account” a confirmation email is sent to your mailbox. Go to your mailbox and look a mail from noreply@archeo.no, if not found pleas check the "spam" folder. Click on the “Confirm email” button
+To edit a existing Sender click "edit".
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-ConfirmEmail.png)
+## Delete Sender
 
-You may now log inn to your new subscription in Archeo.
+![img](https://archeodocstorage.blob.core.windows.net/images/Configuration-Receiver-Delete.png)
 
-## How-to upgrade our trial subscription
+To delete an existing Sender click "delete".
 
-Due to changes in the payment solution we will handle up and downgrading of a subscription manually. Please contact the team at support@archeo.no and we will gladly help you with this.
+## Example
+
+Example value for the Sender used in the json data format supplied to the API.
+
+```json
+[
+  {
+    "transactionId": "4163EBF5-0489-4569-B3BF-9D779593EE7B",
+    "transactionType": "DeliveryMessage",
+    "messageType": "PapinetEnvelope",   
+    "processed": "2022-01-15T10:23:32.2407737+00:00",   
+    "status": "Success",
+    "Sender": "ConnXio"
+  }
+]
+```

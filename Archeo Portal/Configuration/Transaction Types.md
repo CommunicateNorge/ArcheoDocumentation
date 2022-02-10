@@ -1,31 +1,47 @@
+# Transaction Types
 
-# Getting started with Archeo
+- [Transaction Types](#transaction-types)
+  - [About Transactiontype](#about-transactiontype)
+  - [Create Transactiontype](#create-transactiontype)
+  - [Edit Transactiontype](#edit-transactiontype)
+  - [Delete Transactiontype](#delete-transactiontype)
+  - [Example](#example)
 
-- [Getting started with Archeo](#getting-started-with-archeo)
-  - [New user and subscription](#new-user-and-subscription)
-  - [How-to upgrade our trial subscription](#how-to-upgrade-our-trial-subscription)
+## About Transactiontype
 
-## New user and subscription
-If you do not have a Archeo user, you need to create this as a first step. A trial subscription will be created alongside with this registration.
+Transaction types are the top level definition of a business process. The Transaction types are created in the administration web interface and used when logging to the logging API. The name you choose for your transaction type is the value you use when logging to Archeo using our API. The field in the API used for this is the TransactionType field.
+Click Administration menu → Transaction Types. CRUD operations is also available from the [configuration api](../../Archeo%20API/Archeo%20Configuration%20API.md)
 
-Click “Register Now” 
+## Create Transactiontype
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-Login.png)
+![img](https://archeodocstorage.blob.core.windows.net/images/Configuration-TransactionType-New.png)
 
-Fill out requested information and click “Create Account”.
+To add a new transaction type enter a "Name" (required) and "Data Retention Time" and click "add". Transactiontype is required when logging to Archeo and need to be predefined for the subscription before the [logging API](../../Archeo%20API/Archeo%20Logging%20API.md)  will accept the log. "Data Retention Time" is the time in days data for this transaction type will be kept in the system. All transactions older will automatically be deleted from Archeo.
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser01.png)
+## Edit Transactiontype
 
-Add some more information. Give your subscription a well thought out name. For time being this is not changeable without contacting support.
+![img](https://archeodocstorage.blob.core.windows.net/images/Configuration-Messagetype-Edit.png)
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser02.png)
+To edit a existing transaction type  click "edit". Since the logging API are using name, remember that a change of name may affect the logging.
 
-When you click “Create account” a confirmation email is sent to your mailbox. Go to your mailbox and look a mail from noreply@archeo.no, if not found pleas check the "spam" folder. Click on the “Confirm email” button
+## Delete Transactiontype
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-ConfirmEmail.png)
+![img](https://archeodocstorage.blob.core.windows.net/images/Configuration-Messagetype-Delete.png)
 
-You may now log inn to your new subscription in Archeo.
+To delete an existing transaction type  click "delete". Remember that a deleting may affect the logging ig the massage type is used when logging.
 
-## How-to upgrade our trial subscription
+## Example
 
-Due to changes in the payment solution we will handle up and downgrading of a subscription manually. Please contact the team at support@archeo.no and we will gladly help you with this.
+Example value for the transactiontype used in the json data format supplied to the API.
+
+```json
+[
+  {
+    "transactionId": "4163EBF5-0489-4569-B3BF-9D779593EE7B",
+    "transactionType": "DeliveryMessage",
+    "messageType": "PapinetEnvelope",   
+    "processed": "2022-01-15T10:23:32.2407737+00:00",   
+    "status": "Success"
+  }
+]
+```

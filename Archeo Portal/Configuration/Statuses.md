@@ -1,31 +1,53 @@
+# Statuses
 
-# Getting started with Archeo
+- [Statuses](#statuses)
+  - [About Status](#about-status)
+  - [Create Status](#create-status)
+  - [Edit Status](#edit-status)
+  - [Delete Status](#delete-status)
+  - [Example](#example)
 
-- [Getting started with Archeo](#getting-started-with-archeo)
-  - [New user and subscription](#new-user-and-subscription)
-  - [How-to upgrade our trial subscription](#how-to-upgrade-our-trial-subscription)
+## About Status
 
-## New user and subscription
-If you do not have a Archeo user, you need to create this as a first step. A trial subscription will be created alongside with this registration.
+Logging with Status is not mandatory but recommended. The main status for a transaction is set based on latest status logged.
+Click Administration menu → Status. CRUD operations is also available from the [configuration api](../../Archeo%20API/Archeo%20Configuration%20API.md)
 
-Click “Register Now” 
+## Create Status
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-Login.png)
+![img](https://archeodocstorage.blob.core.windows.net/images/Configuration-Status-New.png)
 
-Fill out requested information and click “Create Account”.
+To add a new status type enter a "Name" (required) and set "Immutable" then click "add". If the "Immutable" flag is set, this status will be immutable to change by a status logged later. If both are "immutable" the last logged will be set on main transaction.  If using status when logging the status must be pre-created in the subscription or a error will be thrown from the [logging API](../../Archeo%20API/Archeo%20Logging%20API.md).
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser01.png)
+## Edit Status
 
-Add some more information. Give your subscription a well thought out name. For time being this is not changeable without contacting support.
+![img](https://archeodocstorage.blob.core.windows.net/images/Configuration-Status-Edit.png)
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser02.png)
+To edit a existing transaction type  click "edit". Since the logging API are using name, remember that a change of name may affect the logging. All existing statuses are listed with editing capabilities for the name, immutable and the color shown in a search result. 
 
-When you click “Create account” a confirmation email is sent to your mailbox. Go to your mailbox and look a mail from noreply@archeo.no, if not found pleas check the "spam" folder. Click on the “Confirm email” button
+![img](https://archeodocstorage.blob.core.windows.net/images/Configuration-Status-EditColor.png)
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-ConfirmEmail.png)
+When a user performs a search, rows will be highlighted with the rows status chosen color.
 
-You may now log inn to your new subscription in Archeo.
+![img](https://archeodocstorage.blob.core.windows.net/images/Configuration-Status-ColorInSearch.png)
 
-## How-to upgrade our trial subscription
+## Delete Status
 
-Due to changes in the payment solution we will handle up and downgrading of a subscription manually. Please contact the team at support@archeo.no and we will gladly help you with this.
+![img](https://archeodocstorage.blob.core.windows.net/images/Configuration-Status-Delete.png)
+
+To delete an existing status click "delete". Remember that a deleting may affect the logging if the status is used when logging.
+
+## Example
+
+Example value for the status used in the json data format supplied to the API.
+
+```json
+[
+  {
+    "transactionId": "4163EBF5-0489-4569-B3BF-9D779593EE7B",
+    "transactionType": "DeliveryMessage",
+    "messageType": "PapinetEnvelope",   
+    "processed": "2022-01-15T10:23:32.2407737+00:00",   
+    "status": "Success"
+  }
+]
+```
