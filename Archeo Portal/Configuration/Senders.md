@@ -1,7 +1,7 @@
 
-# Receivers
+# Senders
 
-- [Receivers](#receivers)
+- [Senders](#senders)
   - [About Sender](#about-sender)
   - [Create Sender](#create-sender)
   - [Edit Sender](#edit-sender)
