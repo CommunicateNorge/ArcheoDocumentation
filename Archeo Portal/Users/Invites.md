@@ -1,31 +1,39 @@
+# Invites
 
-# Getting started with Archeo
+- [Invites](#invites)
+  - [About invites](#about-invites)
+  - [Invite user](#invite-user)
+  - [Maintain Invites](#maintain-invites)
+  - [The Invite](#the-invite)
 
-- [Getting started with Archeo](#getting-started-with-archeo)
-  - [New user and subscription](#new-user-and-subscription)
-  - [How-to upgrade our trial subscription](#how-to-upgrade-our-trial-subscription)
+## About invites
 
-## New user and subscription
-If you do not have a Archeo user, you need to create this as a first step. A trial subscription will be created alongside with this registration.
+To add a user to your subscription Archeo uses an invite system. New user will get an E-mail with all details how to register on the subscription. If the user already is a Archeo user he also gets a notification in the portal. The number of invites to send are defined by your subscription level.
 
-Click “Register Now” 
+## Invite user
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-Login.png)
+To invite a user add the e-mail address in the textbox and press "Send"
 
-Fill out requested information and click “Create Account”.
+![img](https://archeodocstorage.blob.core.windows.net/images/Users-Invites-New.png)
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser01.png)
+## Maintain Invites
 
-Add some more information. Give your subscription a well thought out name. For time being this is not changeable without contacting support.
+The invite is valid until the user accepts the invitation or the administrator invalidates the invite by clicking on the green check icon.
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser02.png)
+To revalidate a invite, click the delete icon. To resend a invite, click the resend icon and an E-mail will be sent.
 
-When you click “Create account” a confirmation email is sent to your mailbox. Go to your mailbox and look a mail from noreply@archeo.no, if not found pleas check the "spam" folder. Click on the “Confirm email” button
+![img](https://archeodocstorage.blob.core.windows.net/images/Users-Invites-List.png)
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-ConfirmEmail.png)
+## The Invite
 
-You may now log inn to your new subscription in Archeo.
+When a invite is sent, the e-mail recipient receives an e-mail:
 
-## How-to upgrade our trial subscription
+![img](https://archeodocstorage.blob.core.windows.net/images/Users-Invites-Mail.png)
 
-Due to changes in the payment solution we will handle up and downgrading of a subscription manually. Please contact the team at support@archeo.no and we will gladly help you with this.
+By exeptin this invite you will be redirected to Archeo portal and given following message:
+
+![img](https://archeodocstorage.blob.core.windows.net/images/Users-Invites-Message.png)
+
+If you are a user of Archeo, you only need to log in and the new subscription will be available. If you are a new user, you need to registerer a new user with the token following the invite. See [Getting started](../../Introduction/Getting%20Started.md) for more information
+
+![img](https://archeodocstorage.blob.core.windows.net/images/Users-Invites-NewUserToken.png)

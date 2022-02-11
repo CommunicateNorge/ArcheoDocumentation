@@ -1,31 +1,45 @@
+# User Groups
 
-# Getting started with Archeo
+- [User Groups](#user-groups)
+  - [About User Groups](#about-user-groups)
+  - [Add user group](#add-user-group)
+  - [Set Access Rights](#set-access-rights)
+  - [Edit user group](#edit-user-group)
+  - [Delete user group](#delete-user-group)
 
-- [Getting started with Archeo](#getting-started-with-archeo)
-  - [New user and subscription](#new-user-and-subscription)
-  - [How-to upgrade our trial subscription](#how-to-upgrade-our-trial-subscription)
+## About User Groups
 
-## New user and subscription
-If you do not have a Archeo user, you need to create this as a first step. A trial subscription will be created alongside with this registration.
+Create groups for subscription. Users may be added to groups, and Access Rights is set based on groups. 
 
-Click “Register Now” 
+## Add user group
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-Login.png)
+To add a new user group, give it a name and click "Add".
 
-Fill out requested information and click “Create Account”.
+![img](https://archeodocstorage.blob.core.windows.net/images/Users-UserGroup-Add.png)
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser01.png)
+## Set Access Rights
 
-Add some more information. Give your subscription a well thought out name. For time being this is not changeable without contacting support.
+To set access rights for a user group, use menu on the far right for the given user group.
+![img](https://archeodocstorage.blob.core.windows.net/images/Users-UserGroup-AccessRights.png)
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser02.png)
+ All the Transaction types are listed, with options to set level of access.
 
-When you click “Create account” a confirmation email is sent to your mailbox. Go to your mailbox and look a mail from noreply@archeo.no, if not found pleas check the "spam" folder. Click on the “Confirm email” button
+![img](https://archeodocstorage.blob.core.windows.net/images/Users-UserGroup-SetAccessRights.png)
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-ConfirmEmail.png)
+| Access          | Description |
+| -----------       | ----------- |
+| None         | No rights, is the default|
+| View       |This gives the group members  rights to view the the logging of these transactions. This will also affect the select list of transaction types in the search UI. Only transaction types the user have access to view, will be available|
+| Open | This gives the user rights to view and open the file content of a message for this transaction. In the search result the filename in the “Download content” column will have a link|
+| Admin|This gives the user rights to all operations, such as open and delete|
 
-You may now log inn to your new subscription in Archeo.
+## Edit user group
 
-## How-to upgrade our trial subscription
+The edit option gives the user the possibility to change the name for this user group.
+![img](https://archeodocstorage.blob.core.windows.net/images/Users-UserGroup-Edit.png)
 
-Due to changes in the payment solution we will handle up and downgrading of a subscription manually. Please contact the team at support@archeo.no and we will gladly help you with this.
+## Delete user group
+
+Click the "Delete" option on the menu to delete a user group.
+
+![img](https://archeodocstorage.blob.core.windows.net/images/Users-UserGroup-Delete.png)

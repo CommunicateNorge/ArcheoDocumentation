@@ -1,31 +1,35 @@
+# Users
 
-# Getting started with Archeo
+- [Users](#users)
+  - [About users](#about-users)
+  - [User administration](#user-administration)
+  - [User role](#user-role)
+  - [User Groups](#user-groups)
 
-- [Getting started with Archeo](#getting-started-with-archeo)
-  - [New user and subscription](#new-user-and-subscription)
-  - [How-to upgrade our trial subscription](#how-to-upgrade-our-trial-subscription)
+## About users
 
-## New user and subscription
-If you do not have a Archeo user, you need to create this as a first step. A trial subscription will be created alongside with this registration.
+All subscriptions need at least one user the owner. Users are personally and based on an email address as the username. A user may have different roles and rights per subscription and may be member of many subscription.
 
-Click “Register Now” 
+## User administration
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-Login.png)
+All users are listed, with the possibility to filter this list. Each user has a Role, that sets its user rights
+![img](https://archeodocstorage.blob.core.windows.net/images/Users-User-Administration.png)
 
-Fill out requested information and click “Create Account”.
+The menu far right makes it possible to delete a user from the subscription. Note that the user is not delete from Arche as hole, but only from this subscription.
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser01.png)
+![img](https://archeodocstorage.blob.core.windows.net/images/Users-User-Delete.png)
 
-Add some more information. Give your subscription a well thought out name. For time being this is not changeable without contacting support.
+## User role
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser02.png)
+Archeo supports four predefined roles:
 
-When you click “Create account” a confirmation email is sent to your mailbox. Go to your mailbox and look a mail from noreply@archeo.no, if not found pleas check the "spam" folder. Click on the “Confirm email” button
+| Role          | Description |
+| -----------       | ----------- |
+| Owner         | The owner of the subscription. A subscription may have more than one owner, and an owner has by default the rights of the Administrator and AllMessageRights|
+| Administrator       |An Administrator has by default the rights from AllMessageRights. The administrator has the rights to open the administrator UI and can administrate the service|
+| AllMessageRights | This role gives the members the right to see all transactions and messages for the subscription|
+| User            | This role has by default no rights and the user groups this user is a member of defines its rights  |
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-ConfirmEmail.png)
+## User Groups
 
-You may now log inn to your new subscription in Archeo.
-
-## How-to upgrade our trial subscription
-
-Due to changes in the payment solution we will handle up and downgrading of a subscription manually. Please contact the team at support@archeo.no and we will gladly help you with this.
+Select one or multiple user groups for this user. Go to [user groups](user%20Group.md) to se how to create and assign rights per group.

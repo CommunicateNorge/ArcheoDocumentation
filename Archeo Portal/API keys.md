@@ -7,7 +7,7 @@
 
 ## About API Key
 
-API key is mandatory to use when logging to Archeo API (<https://api.archeo.no/swagger>). The API key holds the information about the subscription, and an not valid key will be refused. You may create as many keys as desired, but the rule of the thumb is to keep it to a minimum, due to security. 
+API key is mandatory to use when logging to Archeo API (<https://api.archeo.no/swagger>). The API key holds the information about the subscription, and an not valid key will be refused. You may create as many keys as desired, but the rule of the thumb is to keep it to a minimum, due to security. If the key is compromised, deactivate the key and the key will stop working within 2 minutes.
 
 ## Generate API Key
 To create a new key give it a name at click "Add". An existing key may be edited, deleted or activated/deactivated
