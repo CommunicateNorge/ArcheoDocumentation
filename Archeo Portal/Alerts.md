@@ -1,9 +1,15 @@
 
 # Alerts
 
-- [About Alerts](#about-alerts)
-- [Create Alert](#Create-Alert)
-- [Manage Alerts](#Create-Alert)
+- [Alerts](#alerts)
+  - [About Alerts](#about-alerts)
+  - [Create Alert](#create-alert)
+    - [Alert Name and description](#alert-name-and-description)
+    - [Alert filters](#alert-filters)
+    - [Alert Conditions](#alert-conditions)
+    - [Distribution Channel](#distribution-channel)
+    - [Save and enable](#save-and-enable)
+  - [Manage Alerts](#manage-alerts)
 
 ## About Alerts
 
