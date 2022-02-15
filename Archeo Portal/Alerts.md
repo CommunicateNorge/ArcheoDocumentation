@@ -3,6 +3,7 @@
 
 - [About Alerts](#about-alerts)
 - [Create Alert](#Create-Alert)
+- [Manage Alerts](#Create-Alert)
 
 ## About Alerts
 
@@ -57,3 +58,11 @@ This i how the alerts are distributed. For now, we support e-mail and webhooks. 
 ### Save and enable
 
 Use the chekbox "Enable Alert" to Enable/Disable the alert. The "Save" button saves the alert and "Close" closes the form without saving.
+
+## Manage Alerts
+
+All alerts are listed in the main form. Here you are able to activate/deactivate, edit or delete the alert.
+
+![img](https://archeodocstorage.blob.core.windows.net/images/Alert-Manage.png)
+
+
