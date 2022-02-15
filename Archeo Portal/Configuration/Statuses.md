@@ -10,7 +10,7 @@
 ## About Status
 
 Logging with Status is not mandatory but recommended. The main status for a transaction is set based on latest status logged.
-Click Administration menu → Status. CRUD operations is also available from the [configuration api](../../Archeo%20API/Archeo%20Configuration%20API.md)
+Click Administration menu → Status. CRUD operations is also available from the [configuration api](../../Archeo%20API£Archeo%20Configuration%20API.md)
 
 ## Create Status
 
