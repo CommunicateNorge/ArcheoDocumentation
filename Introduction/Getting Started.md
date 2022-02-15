@@ -6,6 +6,7 @@
   - [How-to upgrade our trial subscription](#how-to-upgrade-our-trial-subscription)
 
 ## New user and subscription
+
 If you do not have a Archeo user, you need to create this as a first step. A trial subscription will be created alongside with this registration.
 
 Click “Register Now” 

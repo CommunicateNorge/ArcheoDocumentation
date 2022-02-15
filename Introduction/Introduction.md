@@ -1,6 +1,7 @@
 # Introduction
 
-- [What is Archeo](#what-is-archeo)
+- [Introduction](#introduction)
+  - [What is Archeo](#what-is-archeo)
 
 ## What is Archeo
 
