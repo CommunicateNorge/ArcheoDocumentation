@@ -12,7 +12,7 @@
 
 ## About search results
 
-Based on your search the results of all transactions matching the search will be listed her. The list is ordered by the "First Processed" descending always showing the latest logged transactions. The coloring of the row is controlled by the status. The Status is set based on the latest steps status, if not a status is set to immutable, see [status](../Configuration/Statuses.md) for more details. See [API](../Archeo%20API/Archeo%20Logging%20API.md) for more details about the logged values.
+Based on your search the results of all transactions matching the search will be listed her. The list is ordered by the "First Processed" descending always showing the latest logged transactions. The coloring of the row is controlled by the status. The Status is set based on the latest steps status, if not a status is set to immutable, see [status](../Archeo%20Portal/Configuration/Statuses.md) for more details. See [API](../Archeo%20API/Archeo%20Logging%20API.md) for more details about the logged values.
 
 ![img](https://archeodocstorage.blob.core.windows.net/images/Search-Result-Main.png)
 
