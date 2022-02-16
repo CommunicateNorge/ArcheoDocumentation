@@ -16,7 +16,7 @@ Click Administration menu → Transaction Types. CRUD operations is also availab
 
 ![img](https://archeodocstorage.blob.core.windows.net/images/Configuration-TransactionType-New.png)
 
-To add a new transaction type enter a "Name" (required) and "Data Retention Time" and click "add". Transactiontype is required when logging to Archeo and need to be predefined for the subscription before the [logging API](../../Archeo%20API/Archeo%20Logging%20API.md)  will accept the log. "Data Retention Time" is the time in days data for this transaction type will be kept in the system. All transactions older will automatically be deleted from Archeo.
+To add a new transaction type enter a "Name" (required) and "Data Retention Time" and click "add". Transactiontype is required when logging to Archeo and need to be predefined for the subscription before the [logging API](../Archeo%20API/Archeo%20Logging%20API.md)  will accept the log. "Data Retention Time" is the time in days data for this transaction type will be kept in the system. All transactions older will automatically be deleted from Archeo.
 
 ## Edit Transactiontype
 
