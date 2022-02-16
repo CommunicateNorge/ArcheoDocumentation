@@ -48,8 +48,8 @@ Every step is possible to resend. All the properties for this step, including a 
 
 ![img](https://archeodocstorage.blob.core.windows.net/images/Search-Result-ResendForm.png)
 
-Go to [status](../Distribution%20Channels/Webhooks.mk) for more detail for more details about how to setup a webhook.
-
+Go to [webhooks](../Archeo%20Portal/Distibution%20Channels/Webhooks.md) for more detail for more details about how to setup a webhook.
+../Archeo%20Portal/Configuration/Statuses.md
 It is also possible to resend a batch. By selecting all the messages You like to resend, and select "Resend selected" on the "burger" menu top right, you will be able to resend up to 100 messages in one batch.
 
 ![img](https://archeodocstorage.blob.core.windows.net/images/Search-Result-ResendBatch.png)
