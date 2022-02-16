@@ -10,13 +10,13 @@
 ## About Status
 
 Logging with Status is not mandatory but recommended. The main status for a transaction is set based on latest status logged.
-Click Administration menu → Status. CRUD operations is also available from the [configuration api](../../Archeo%20API/Archeo%20Configuration%20API.md)
+Click Administration menu → Status. CRUD operations is also available from the [configuration api](../Archeo%20API/Archeo%20Configuration%20API.md)
 
 ## Create Status
 
 ![img](https://archeodocstorage.blob.core.windows.net/images/Configuration-Status-New.png)
 
-To add a new status type enter a "Name" (required) and set "Immutable" then click "add". If the "Immutable" flag is set, this status will be immutable to change by a status logged later. If both are "immutable" the last logged will be set on main transaction.  If using status when logging the status must be pre-created in the subscription or a error will be thrown from the [logging API](../../Archeo%20API/Archeo%20Logging%20API.md).
+To add a new status type enter a "Name" (required) and set "Immutable" then click "add". If the "Immutable" flag is set, this status will be immutable to change by a status logged later. If both are "immutable" the last logged will be set on main transaction.  If using status when logging the status must be pre-created in the subscription or a error will be thrown from the [logging API](../Archeo%20API/Archeo%20Logging%20API.md).
 
 ## Edit Status
 

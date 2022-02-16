@@ -12,13 +12,13 @@
 
 A message type is the type of the message logged in a transaction. One transaction may consist of many message types.
 The message types are created in the administration web interface and used when logging to the logging API.
-Click Administration menu → Message Types. CRUD operations is also available from the [configuration api](../../Archeo%20API£Archeo%20Configuration%20API.md)
+Click Administration menu → Message Types. CRUD operations is also available from the [configuration api](../Archeo%20API/Archeo%20Configuration%20API.md)
 
 ## Create Messagetype
 
 ![img](https://archeodocstorage.blob.core.windows.net/images/Configuration-Messagetype-New.png)
 
-To add a new message type enter a name and click "add". If using messagetype when logging the type must be pre-created in the subscription or a error will be thrown from the [logging API](../../Archeo%20API/Archeo%20Logging%20API.md).
+To add a new message type enter a name and click "add". If using messagetype when logging the type must be pre-created in the subscription or a error will be thrown from the [logging API](../Archeo%20API/Archeo%20Logging%20API.md).
 
 ## Edit Messagetype
 
