@@ -10,7 +10,7 @@
 ## About Transactiontype
 
 Transaction types are the top level definition of a business process. The Transaction types are created in the administration web interface and used when logging to the logging API. The name you choose for your transaction type is the value you use when logging to Archeo using our API. The field in the API used for this is the TransactionType field.
-Click Administration menu → Transaction Types. CRUD operations is also available from the [configuration api](../../Archeo%20API£Archeo%20Configuration%20API.md)
+Click Administration menu → Transaction Types. CRUD operations is also available from the [configuration api](../../Archeo%20API/Archeo%20Configuration%20API.md)
 
 ## Create Transactiontype
 
