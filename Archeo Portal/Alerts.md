@@ -61,7 +61,6 @@ This will open the Alert form with all the parameters pre-filled, or open a new 
 
 This i how the alerts are distributed. For now, we support e-mail and webhooks. To add Email-groups or webhooks, see the section about [email groups](../Archeo%20Portal/Distibution%20Channels/Email%20groups.md) and [webhooks](../Archeo%20Portal/Distibution%20Channels/Webhooks.md) . When an alert is triggered everyone on the e-mail group will receive an e-mail, with link to open search view with result that triggered the alert.
 
-
 ### Save and enable
 
 Use the chekbox "Enable Alert" to Enable/Disable the alert. The "Save" button saves the alert and "Close" closes the form without saving.
@@ -71,5 +70,3 @@ Use the chekbox "Enable Alert" to Enable/Disable the alert. The "Save" button sa
 All alerts are listed in the main form. Here you are able to activate/deactivate, edit or delete the alert.
 
 ![img](https://archeodocstorage.blob.core.windows.net/images/Alert-Manage.png)
-
-

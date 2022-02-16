@@ -32,4 +32,4 @@ Archeo supports four predefined roles:
 
 ## User Groups
 
-Select one or multiple user groups for this user. Go to [user groups](user%20Group.md) to se how to create and assign rights per group.
+Select one or multiple user groups for this user. Go to [user groups](../Archeo%20Portal/Users/User%20Group.md) to se how to create and assign rights per group.
