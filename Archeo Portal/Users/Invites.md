@@ -34,6 +34,6 @@ By exeptin this invite you will be redirected to Archeo portal and given followi
 
 ![img](https://archeodocstorage.blob.core.windows.net/images/Users-Invites-Message.png)
 
-If you are a user of Archeo, you only need to log in and the new subscription will be available. If you are a new user, you need to registerer a new user with the token following the invite. See [Getting started](../../Introduction/Getting%20Started.md) for more information
+If you are a user of Archeo, you only need to log in and the new subscription will be available. If you are a new user, you need to registerer a new user with the token following the invite. See [Getting started](../Introduction/Getting%20Started.md) for more information
 
 ![img](https://archeodocstorage.blob.core.windows.net/images/Users-Invites-NewUserToken.png)
