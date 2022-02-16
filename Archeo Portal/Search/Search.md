@@ -60,7 +60,7 @@ Available form the "burger" menu top right. Only available ig you are member of 
 
 ![img](https://archeodocstorage.blob.core.windows.net/images/Search-BurgerMenu.png)
 
-Archeo support Alerts, for more details see [alerts](Alerts.mk). Alerting are based on a search and you can create an alert based on the search you have created. This will take you to the alert creation page, where all the filters and parameters are pre-filled, to swiftly create an Alert.  
+Archeo support Alerts, for more details see [alerts](../Archeo%20Portal/Alerts.md). Alerting are based on a search and you can create an alert based on the search you have created. This will take you to the alert creation page, where all the filters and parameters are pre-filled, to swiftly create an Alert.  
 
 ## Copy search link to clipboard
 
