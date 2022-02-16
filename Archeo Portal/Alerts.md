@@ -59,7 +59,7 @@ This will open the Alert form with all the parameters pre-filled, or open a new 
 
 ### Distribution Channel
 
-This i how the alerts are distributed. For now, we support e-mail and webhooks. To add Email-groups or webhooks, see the section about [email groups](/Distibution%20Channels/Email%20groups) and [webhooks](/Distibution%20Channels/webhooks) . When an alert is triggered everyone on the e-mail group will receive an e-mail, with link to open search view with result that triggered the alert
+This i how the alerts are distributed. For now, we support e-mail and webhooks. To add Email-groups or webhooks, see the section about [email groups](/Distibution%20Channels/Email%20groups.md) and [webhooks](/Distibution%20Channels/webhooks.md) . When an alert is triggered everyone on the e-mail group will receive an e-mail, with link to open search view with result that triggered the alert
 
 ### Save and enable
 
