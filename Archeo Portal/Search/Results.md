@@ -5,6 +5,7 @@
   - [About search results](#about-search-results)
   - [Search result details](#search-result-details)
   - [Open or download content](#open-or-download-content)
+  - [Open, download or link to external content](#open-download-or-link-to-external-content)
   - [Metadata](#metadata)
   - [Resend](#resend)
   - [Add logstep](#add-logstep)
@@ -27,6 +28,12 @@ Click on a row to expand the current transaction. All steps logged for this tran
 To open file content press the filename link and the content will bee shown in the Archeo default viewer. To download the file click the icon to the left of the link.
 
 ![img](https://archeodocstorage.blob.core.windows.net/images/Search-Result-Download.png)
+
+## Open, download or link to external content
+
+When logging using the "ContentURI" property, the content is located external from Archeo. The functionality is similar to local content, but is marked with an (ext). The content is downloaded based on the "ContentURI". The "Link" icon on the far right opens the content in a new browser window. If logging using both "BodyContent" and "ContentURI" properties, both is visible See [API](../Archeo%20API/Archeo%20Logging%20API.md) for more details about logging.
+
+![img](https://archeodocstorage.blob.core.windows.net/images/Search-Result-Download-External.png)
 
 ## Metadata
 
