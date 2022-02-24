@@ -1,17 +1,17 @@
 
-# Search
+# Search panel
 
-- [Search](#search)
-  - [About search](#about-search)
+- [Search panel](#search-panel)
+  - [About search panel](#about-search-panel)
   - [Search filters](#search-filters)
   - [Advanced search filters](#advanced-search-filters)
   - [Saved search](#saved-search)
   - [Create alert from search parameters](#create-alert-from-search-parameters)
   - [Copy search link to clipboard](#copy-search-link-to-clipboard)
 
-## About search
+## About search panel
 
-Use search to identify your messages and flows. Search provides a set of filters with powerful freetext search to quickly find what you are looking for. Mix and match filter for most precise hits.
+Use search panel to identify your messages and flows. Search provides a set of filters with powerful freetext search to quickly find what you are looking for. Mix and match filter for most precise hits.
 
 ## Search filters
 
