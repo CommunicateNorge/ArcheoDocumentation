@@ -36,6 +36,7 @@ Model of the logstep data model used in logging:
     "description": "string",
     "fileName": "string",
     "bodyContent": "string",
+    "contentURI": "string",
     "status": "string",
     "metadata": {
       "additionalProp1": "string",
@@ -44,7 +45,7 @@ Model of the logstep data model used in logging:
     }
   }
 ]
-(Required: transactionId, transactionType and processed)
+(Required: transactionId, transactionType and processed) 
 ```
 
 The API consumes a list of the log steps. Note, that if any steps fail validation, the entire batch will be discarded.
@@ -63,6 +64,7 @@ JSON example:
     "receiver": "Receiver of the message",
     "description": "(Optional) Descriptive info message",
     "fileName": "Filename of transaction",
+    "contentURI": "https://myaccount.blob.core.windows.net/sascontainer/sasblob.txt?sr=b&sp=rw&sig=Z%2FRHIX5Xcg0Mq2rqI3OlWTjEg2tYkboXr1P9ZUXDtkk%3D",
     "status": "Success",
     "metadata": {
       "InboundAdapter": "REST",
