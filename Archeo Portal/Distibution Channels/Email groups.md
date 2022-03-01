@@ -1,9 +1,10 @@
 
 # Email groups
 
-- [About Emailgroups](#new-user-and-subscription)
-- [Create Emailgroups](#how-to-upgrade-our-trial-subscription)
-- [Manage Emailgroups](#how-to-upgrade-our-trial-subscription)
+- [Email groups](#email-groups)
+  - [About Emailgroups](#about-emailgroups)
+  - [Create Emailgroups](#create-emailgroups)
+  - [Manage Emailgroups](#manage-emailgroups)
 
 ## About Emailgroups
 Email is the most easy way to notify users from Archeo, like when an Alert har been created. All email addresses are logical gathered in groups for easy distribution to one or many users.
