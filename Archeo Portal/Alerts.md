@@ -10,6 +10,7 @@
     - [Distribution Channel](#distribution-channel)
     - [Save and enable](#save-and-enable)
   - [Manage Alerts](#manage-alerts)
+  - [Alert log](#alert-log)
 
 ## About Alerts
 
@@ -70,3 +71,18 @@ Use the chekbox "Enable Alert" to Enable/Disable the alert. The "Save" button sa
 All alerts are listed in the main form. Here you are able to activate/deactivate, edit or delete the alert.
 
 ![img](https://archeodocstorage.blob.core.windows.net/images/Alert-Manage.png)
+
+## Alert log
+
+All generated alerts are listed with details, to give the full overview including link to the logs creating the alert.
+
+| Column          | Description |
+| -----------       | ----------- |
+| Trigger time | Date and time of when the alert was generated |
+| Threshold | The set threshold for this alert|
+| Hits  | Number of hits for the result creating the alert|
+| Distributed by | What distribution channels were used|
+| "Link" | A direct link to search result showing the items that created this alert|
+
+
+![img](https://archeodocstorage.blob.core.windows.net/images/Alert-Log.png)
