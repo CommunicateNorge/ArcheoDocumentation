@@ -1,9 +1,8 @@
 
-# Getting started with Archeo
+<h1>Getting started with Archeo</h1>
 
-- [Getting started with Archeo](#getting-started-with-archeo)
-  - [Creating a user and subscription](#creating-a-user-and-subscription)
-  - [How-to upgrade your trial subscription](#how-to-upgrade-your-trial-subscription)
+- [Creating a user and subscription](#creating-a-user-and-subscription)
+- [How-to upgrade your trial subscription](#how-to-upgrade-your-trial-subscription)
 
 ## Creating a user and subscription
 
