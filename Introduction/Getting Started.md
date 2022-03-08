@@ -9,21 +9,22 @@
 
 If you do not have a Archeo user, you need to create this as a first step. A trial subscription will be created alongside with this registration.
 
-Click “Register Now” 
+1. Click “Register Now”
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-Login.png)
+    <!-- ![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-Login.png) -->
+    <kbd><img src="https://archeodocstorage.blob.core.windows.net/images/GettingStarted-Login.png" /></kbd>
 
-Fill out requested information and click “Create Account”.
+2. Fill out requested information and click “Create Account”.
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser01.png)
+    ![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser01.png)
 
-Add some more information. Give your subscription a well thought out name. For time being this is not changeable without contacting support.
+3. Add some more information. Give your subscription a well thought out name. For time being this is not changeable without contacting support.
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser02.png)
+      ![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser02.png)
 
-When you click “Create account” a confirmation email is sent to your mailbox. Go to your mailbox and look a mail from noreply@archeo.no, if not found pleas check the "spam" folder. Click on the “Confirm email” button
+4. When you click “Create account” a confirmation email is sent to your mailbox. Go to your mailbox and look a mail from noreply@archeo.no, if not found pleas check the "spam" folder. Click on the “Confirm email” button
 
-![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-ConfirmEmail.png)
+      ![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-ConfirmEmail.png)
 
 You may now log inn to your new subscription in Archeo.
 
