@@ -2,32 +2,33 @@
 # Getting started with Archeo
 
 - [Getting started with Archeo](#getting-started-with-archeo)
-  - [New user and subscription](#new-user-and-subscription)
-  - [How-to upgrade our trial subscription](#how-to-upgrade-our-trial-subscription)
+  - [Creating a user and subscription](#creating-a-user-and-subscription)
+  - [How-to upgrade your trial subscription](#how-to-upgrade-your-trial-subscription)
 
-## New user and subscription
+## Creating a user and subscription
 
-If you do not have a Archeo user, you need to create this as a first step. A trial subscription will be created alongside with this registration.
+If you do not already have an Archeo user account, you will first need to create one. A trial subscription will be created at the same time. Your user account can be invited to other subscriptions and will remain active even after your trial subscription ends.
 
-1. Click “Register Now”
+1. Go to the [Archeo portal](<https://portal.archeo.no>)
 
-    <!-- ![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-Login.png) -->
+2. Click “Register Now”
+
     <kbd><img src="https://archeodocstorage.blob.core.windows.net/images/GettingStarted-Login.png" /></kbd>
 
-2. Fill out requested information and click “Create Account”.
+3. Fill out requested information and click “Create Account”.
 
-    ![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser01.png)
+    <kbd><img src="https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser01.png" /></kbd>
 
-3. Add some more information. Give your subscription a well thought out name. For time being this is not changeable without contacting support.
+4. Give your subscription a well thought out name. For the time being, this is not changeable without contacting support.
 
-      ![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser02.png)
+    <kbd><img src="https://archeodocstorage.blob.core.windows.net/images/GettingStarted-newuser02.png" /></kbd>
 
-4. When you click “Create account” a confirmation email is sent to your mailbox. Go to your mailbox and look a mail from noreply@archeo.no, if not found pleas check the "spam" folder. Click on the “Confirm email” button
+5. When you click “Create account”, a confirmation email is sent to the email you specified. If you did not receive this email, please check your spam folder. Clicking the “Confirm email” link in the email confirms that you are the owner of the email-address.
 
-      ![img](https://archeodocstorage.blob.core.windows.net/images/GettingStarted-ConfirmEmail.png)
+    <kbd><img src="https://archeodocstorage.blob.core.windows.net/images/GettingStarted-ConfirmEmail.png" /></kbd>
 
-You may now log inn to your new subscription in Archeo.
+6. You may now log in to your new subscription in Archeo.
 
-## How-to upgrade our trial subscription
+## How-to upgrade your trial subscription
 
-Due to changes in the payment solution we will handle up and downgrading of a subscription manually. Please contact the team at support@archeo.no and we will gladly help you with this.
+If you need to scale up or down your subscription, contact the team at support@archeo.no and we will happily assist you in this.
