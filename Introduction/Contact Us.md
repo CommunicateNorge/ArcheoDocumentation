@@ -1,6 +1,6 @@
 # Contact Us
 
-These resource pages are meant to give you introduction and help you all the way to get started using Archeo.
+These resource pages are meant to give you an introduction to Archeo and help you get started.
 
 If you need any assistance please contact us:
 
