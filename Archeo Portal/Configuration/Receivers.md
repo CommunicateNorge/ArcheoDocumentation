@@ -10,7 +10,7 @@
 
 ## About Receiver
 
-Receivers are automatically created if they do not exist in Archeo. You may add or edit receiver manually. Reveivers are typically used to name the endpoint for this log.
+Receivers are automatically created if they do not exist in Archeo. You may add or edit receivers manually. Receivers are typically used to name the endpoint for this log. The "Receiver Name" is used when logged and "Display Name" are the name shown in this portal, like in the dropdown when searching. Display Name are set identical with Receiver Name by default.
 Click Administration menu → Receivers
 
 ## Create Receiver

@@ -2,6 +2,8 @@
 
 - [Users](#users)
   - [About users](#about-users)
+  - [Filter List](#filter-list)
+  - [Show vendor users](#show-vendor-users)
   - [User administration](#user-administration)
   - [User role](#user-role)
   - [User Groups](#user-groups)
@@ -9,6 +11,14 @@
 ## About users
 
 All subscriptions need at least one user the owner. Users are personally and based on an email address as the username. A user may have different roles and rights per subscription and may be member of many subscription.
+
+## Filter List
+
+Use the filter text box to filter the list of users
+
+## Show vendor users
+
+This checkbox will show users from the vendor. These users are by default hidden and they will not be accounted for as a user when it comes to user consumption for this subscription.
 
 ## User administration
 
