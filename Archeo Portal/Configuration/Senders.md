@@ -10,7 +10,7 @@
 
 ## About Sender
 
-Senders are automatically created if they do not exist in Archeo. You may add or edit Sender manually. Reveivers are typically used to name the endpoint for this log.
+Senders are automatically created if they do not exist in Archeo. You may add or edit senders manually. Senders are typically used to name the endpoint for this log. The "Sender Name" is used when logged and "Display Name" are the name shown in this portal, like in the dropdown when searching. Display Name are set identical with Senders Name by default.
 Click Administration menu → Senders
 
 ## Create Sender
