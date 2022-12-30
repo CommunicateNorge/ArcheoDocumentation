@@ -21,7 +21,7 @@ Use filters to narrow down your search. The "Search" button performs the search,
 
 |Filter  |Description   |
 |------|---|
-|Search|Search in all content, descriptions and metadata. Use double quotes to search for a phrase. "This is a quote" will search for the exact match. No quotation marks will show matches for all individual words|
+|Search|Search in all content, descriptions and metadata. Use double quotes to search for a phrase. "This is a quote" will search for the exact match. No quotation marks will show matches for all individual words. Punctuation or hyphen will act as space, use double quotes like "order123.xml"  |
 |From |Date/time first logging received|
 |To |Date/time last logging received|
 |Transaction Id|The id of the log, will return one or none rows. Discards all other filters |
